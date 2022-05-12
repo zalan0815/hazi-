@@ -73,7 +73,7 @@ while osszeg(bankCard) <= 16:
 
 kiiras = False
 
-if osszeg(playerCard) > osszeg(bankCard) and vesztettel == False:
+if osszeg(playerCard) > osszeg(bankCard) and vesztettel == False and  osszeg(bankCard) > 21:
     print("Nyertél!!!")
 elif osszeg(bankCard) > 21 and vesztettel == True:
     print("Döntetlen!")
